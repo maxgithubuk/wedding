@@ -18,12 +18,13 @@ body {
 }
 
 .site-header {
-  padding: 1rem 1.5rem 0;
+  padding: 2rem 1.5rem 1rem;
+
   background-image: url("wedding/tierney-max.png");
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: min(calc(220px / 3), calc(70vw / 3)) auto;
-  padding-left: calc(min(calc(220px / 3), calc(70vw / 3)) + 0.75rem);
+  background-size: min(420px, 60vw) auto;
+  padding-left: calc(min(420px, 60vw) + 1.5rem);
 }
 
 /* hide any leftover inline <img class="header-logo"> just in case */

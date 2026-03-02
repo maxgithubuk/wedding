@@ -19,7 +19,7 @@ body {
 
 .site-header {
   padding: 1rem 1.5rem 0;
-  background-image: url("tierney-max.png");
+  background-image: url("wedding/tierney-max.png");
   background-repeat: no-repeat;
   background-position: left center;
   background-size: min(calc(220px / 3), calc(70vw / 3)) auto;

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Freight";
+  src: local("Freight Regular"), local("FreightText-Regular");
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #ffffff;
+  color: #111111;
+  font-family: "Freight", "Freight Text Pro", Georgia, serif;
+  line-height: 1.5;
+}
+
+.site-header {
+  padding: 1rem 1.5rem 0;
+}
+
+.header-logo {
+  width: min(220px, 70vw);
+  height: auto;
+  display: block;
+}
+
+.page {
+  width: min(760px, 92vw);
+  margin: 0 auto;
+  padding: 1rem 0 3rem;
+  text-align: left;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.8rem, 3.2vw, 2.7rem);
+  text-transform: lowercase;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+p {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.landing-nav a,
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.landing-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}

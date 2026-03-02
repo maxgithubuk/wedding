@@ -19,12 +19,16 @@ body {
 
 .site-header {
   padding: 1rem 1.5rem 0;
+  background-image: url("photo/Tierney%20%26%20Max.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: min(calc(220px / 3), calc(70vw / 3)) auto;
+  padding-left: calc(min(calc(220px / 3), calc(70vw / 3)) + 0.75rem);
 }
 
+/* hide any leftover inline <img class="header-logo"> just in case */
 .header-logo {
-  width: min(220px, 70vw);
-  height: auto;
-  display: block;
+  display: none;
 }
 
 .page {

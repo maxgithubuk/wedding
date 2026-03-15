@@ -30,8 +30,8 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  opacity: 0.85;
 }
-
 .page {
   width: min(1100px, 92vw);
   margin: 0 auto;

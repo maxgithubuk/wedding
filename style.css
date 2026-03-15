@@ -25,7 +25,8 @@ body {
 }
 
 .header-logo {
-  width: min(100%, 400px);
+  width: 400px;
+  max-width: 100%;
   height: auto;
   display: block;
 }

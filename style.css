@@ -56,8 +56,8 @@ body {
 .landing-left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 2rem;
+  align-items: flex-start;
+  gap: 1.5rem;
 }
 
 .landing-right {

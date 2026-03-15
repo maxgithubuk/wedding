@@ -140,3 +140,9 @@ li + li {
 .subpage .header-logo {
   width: 320px;
 }
+
+.dancing-skelly {
+  display: block;
+  margin: 3rem auto 0;
+  width: 120px;
+}

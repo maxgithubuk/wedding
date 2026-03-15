@@ -130,3 +130,12 @@ li + li {
     gap: 1.25rem;
   }
 }
+
+.subpage .site-header {
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+.subpage .header-logo {
+  width: 320px;
+}

@@ -1,25 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tierney & Max Wedding</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header"></header>
-
-    <main class="page page-landing">
-      <section class="hero">
-        <h1>Welcome</h1>
-        <p>Please explore the details for our wedding celebration.</p>
-      </section>
-
-      <nav class="landing-nav" aria-label="Wedding links">
-        <a href="where-when.html">where and when</a>
-        <a href="info.html">info</a>
-        <a href="gifts.html">gifts</a>
-      </nav>
-    </main>
-  </body>
-</html>
+diff --git a/index.html b/index.html
+index e50c09ea13e0f3dc56f951f367dcbce3717ddae1..241e2b3cc56f27a7d065e1fafe579c19011e27f1 100644
+--- a/index.html
++++ b/index.html
+@@ -1,25 +1,28 @@
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Tierney & Max Wedding</title>
+     <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+-    <header class="site-header"></header>
++    <header class="site-header">
++      <img src="tierney-max.png" alt="Tierney and Max" class="header-logo" />
++    </header>
+ 
+     <main class="page page-landing">
+-      <section class="hero">
+-        <h1>Welcome</h1>
+-        <p>Please explore the details for our wedding celebration.</p>
++      <section class="landing-left" aria-label="Menu links">
++        <nav class="landing-nav" aria-label="Wedding links">
++          <a href="where-when.html">where and when</a>
++          <a href="info.html">info</a>
++          <a href="gifts.html">gifts</a>
++        </nav>
+       </section>
+ 
+-      <nav class="landing-nav" aria-label="Wedding links">
+-        <a href="where-when.html">where and when</a>
+-        <a href="info.html">info</a>
+-        <a href="gifts.html">gifts</a>
+-      </nav>
++      <section class="landing-right" aria-label="Wedding photo">
++        <img src="photo.jpg" alt="Tierney and Max" class="landing-photo" />
++      </section>
+     </main>
+   </body>
+-</html>
+\ No newline at end of file
++</html>

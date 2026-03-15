@@ -111,7 +111,7 @@ a,
   font-size: 1.35rem;
 }
 
-.landing-nav a + a {
+.landing-nav a:nth-child(2) {
   margin-left: 1.5rem;
 }
 

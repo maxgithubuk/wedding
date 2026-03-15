@@ -55,8 +55,9 @@ body {
 
 .landing-left {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  gap: 2rem;
 }
 
 .landing-right {

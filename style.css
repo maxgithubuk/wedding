@@ -43,9 +43,16 @@ body {
 
 .page-landing {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: stretch;
+  grid-template-columns: 420px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.welcome-banner {
+  max-width: 420px;
+}
+.landing-nav {
+  margin-top: 1rem;
 }
 
 .landing-left,

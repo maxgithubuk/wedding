@@ -169,3 +169,7 @@ li + li {
     grid-template-columns: 1fr;
   }
 }
+h3 {
+  font-size: clamp(1.26rem, 2.24vw, 1.89rem);
+  font-weight: 400;
+}

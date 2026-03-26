@@ -133,6 +133,10 @@ li + li {
   }
 }
 
+.footnote {
+  font-size: 0.85em;
+}
+
 .subpage .site-header {
   justify-content: flex-start;
   padding-left: 0;

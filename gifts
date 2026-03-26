@@ -1,5 +1,40 @@
-The most important thing to us is having you with us on our wedding day. However, if you would like to give a gift, we have set up a honeymoon pot to help fund our honeymoon in Hawaii. Aloha.
+<!DOCTYPE html>
+<html lang="en">
 
-Honeymoon pot
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSVP & Gifts | Tierney & Max</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-hawaii.png
+<body class="subpage">
+
+  <header class="site-header">
+    <a href="index.html">
+      <img src="tierney-max.png" alt="Tierney and Max" class="header-logo">
+    </a>
+  </header>
+
+  <main class="page page-content">
+
+    <h1>RSVP and gifts</h1>
+
+    <p>
+      The most important thing to us is having you with us on our wedding day. However, if you would like to give a gift, we have set up a honeymoon pot to help fund our honeymoon in Hawaii. Aloha.
+    </p>
+
+    <h3>Honeymoon pot</h3>
+
+    <p>
+      <a href="#">Contribute here</a>
+    </p>
+
+    <p>
+      <img src="hawaii.png" alt="Hawaii" style="width: 100%; max-width: 520px; height: auto; display: block;">
+    </p>
+
+  </main>
+
+</body>
+</html>

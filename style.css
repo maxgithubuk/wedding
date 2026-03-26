@@ -85,7 +85,6 @@ body {
 h1 {
   margin: 0 0 1rem;
   font-size: clamp(1.8rem, 3.2vw, 2.7rem);
-  text-transform: lowercase;
   font-weight: 400;
 }
 

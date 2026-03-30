@@ -112,8 +112,20 @@ a,
   font-size: 1.35rem;
 }
 
-.landing-nav a:nth-child(2) {
+.landing-nav a {
+  display: block;
+}
+
+.nav-top {
+  margin-left: 0;
+}
+
+.nav-indent-1 {
   margin-left: 1.5rem;
+}
+
+.nav-indent-2 {
+  margin-left: 3rem;
 }
 
 ul {
